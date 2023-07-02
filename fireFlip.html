@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fireFlip</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mate+SC&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: blanchedalmond;
+        }
+
+        .flex-all-centre {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            background: #2874f0;
+            font-family: 'Indie Flower', cursive;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 6vw;
+            padding: 0 3vh;
+
+        }
+
+        ul {
+            height: 8vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        li {
+            list-style: none;
+            padding: 0 2vh;
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: bold;
+            color: black;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search input {
+            width: 33vw;
+            height: 3vh;
+            border-radius: 2px;
+            margin: 0 2vh 0 15vh;
+            padding: 0 1vh;
+        }
+
+
+
+        .container {
+            min-height: calc(100vh - 8vh - 12vh);
+            background-color: blanchedalmond;
+        }
+
+        .top {
+            display: flex;
+            max-width: 80vw;
+            margin: 1vh auto;
+            background-color: aqua;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            text-align: center;
+            width: 5vw;
+            margin: 1vw auto;
+        }
+
+        .top div img {
+            width: 5vw;
+
+        }
+
+        .top div a {
+            color: black;
+            font-family: 'Viaoda Libre', cursive;
+            text-decoration: none;
+        }
+
+        .slider {
+            margin: 12px auto 35px auto;
+            width: 80vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .card {
+            background-color: white;
+            max-width: 80vw;
+            max-height: 25vh;
+            margin: 2vh auto;
+        }
+
+        .my-2 {
+            margin: 0 2vh;
+            color: maroon;
+        }
+
+        .box-2 {
+            display: flex;
+            max-width: 80vw;
+            margin: 1vh auto;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Indie Flower', cursive;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .off {
+            color: green;
+        }
+
+        .card-item {
+            text-align: center;
+            margin: 1vw auto;
+        }
+
+        .card-item img {
+            height: 6vw;
+        }
+
+
+        footer {
+            height: 12vh;
+            background-color: #2874f0;
+            color: white;
+            font-family: 'Indie Flower', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                    alt="Flipkart">
+            </div>
+            <ul>
+                <li><a href="https://www.flipkart.com/">Home</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Flipkart">About</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search for Products">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+
+            <div class="top">
+                <div class="box">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="">
+                    <a
+                        href="https://www.flipkart.com/category-offer-store?fm=neo%2Fmerchandising&iid=M_1bb1980c-f89d-49ce-8667-1def0cf1d628_1_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU">Top
+                        Offers</a>
+                </div>
+                <div class="box">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt="">
+                    <a
+                        href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_1bb1980c-f89d-49ce-8667-1def0cf1d628_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=CBUR1Q46W5F1">Grocery</a>
+                </div>
+                <div class="box">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="">
+                    <a
+                        href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_1bb1980c-f89d-49ce-8667-1def0cf1d628_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L0_view-all&cid=ZRQ4DKH28K8J">Mobiles</a>
+                </div>
+                <div class="box">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100" alt="">
+                    <a href="Fashion.html">Fashion</a>
+                </div>
+                <div class="box">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="">
+                    <a href="Electronics.html">Electronics</a>
+                </div>
+                <div class="box">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/ee162bad964c46ae.png?q=100" alt="">
+                    <a href="Home.html">Home</a>
+                </div>
+                <div class="box">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt="">
+                    <a href="Appliances.html">Appliances</a>
+                </div>
+                <div class="box">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="">
+                    <a href="Travel.html">Travel</a>
+                </div>
+                <div class="box">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="">
+                    <a href="Beauty.html">Beauty</a>
+                </div>
+            </div>
+            <div class="slider">
+                <img src="https://source.unsplash.com/collection/190727/1200x250" alt="">
+            </div>
+            <div class="card">
+
+                <h2 class="my-2">Deals of the day</h2>
+                <hr>
+                <div class="box-2">
+                    <div class="card-item">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jmjhifk0/sanitary-pad-pantyliner/s/z/6/ultra-clean-plus-xl-44-sanitary-pad-whisper-original-imaf9ezuqgkpayhc.jpeg?q=70"
+                            alt="">
+
+                        <div class="lines">
+                            <a
+                                href="https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&offer=nb:mp:0568061521&hpid=s1ni_KvV4UbMuaeKV9IOwap7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_8053cc5e-877b-44ba-b140-a1eb1c70aadf_3.LM17G1FAK5PY&ppt=None&ppn=None&ssid=j6rw73y5qo0000001624365488964&otracker=hp_omu_Deals%2Bof%2Bthe%2BDay_1_3.dealCard.OMU_LM17G1FAK5PY_3&otracker1=hp_omu_SECTIONED_manualRanking_neo%2Fmerchandising_Deals%2Bof%2Bthe%2BDay_NA_dealCard_cc_1_NA_view-all_3&cid=LM17G1FAK5PY">Personal
+                                Hygiene Essential</a>
+                            <p class="off">Extra 5% off</p>
+                            <p></p>
+
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jlb6v0w0/bedsheet/z/h/u/mgeo1c6q-crtl-1639-flat-flipkart-smartbuy-original-imaf8gtdczv2exyt.jpeg?q=70"
+                            alt="">
+
+                        <div class="lines">
+                            <a
+                                href="https://www.flipkart.com/home-furnishing/bed-linen-blankets/bedsheets/~cs-qix0pqx1ol/pr?sid=jra%2Cknw%2Cqcw&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&offer=nb:mp:05735b1722,nb:mp:05c9b3c122&hpid=WDm-a07NR_JdMyAAwyqdlqp7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_42a961f1-fb4b-449b-8030-8f732f932290_2.LFLIZ1FO5UGG&ppt=hp&ppn=homepage&ssid=litvvmmmm80000001624368436762&otracker=clp_omu_infinite_Deals%2Bof%2Bthe%2BDay_2_2.dealCard.OMU_INFINITE_dotd-store_dotd-store_LFLIZ1FO5UGG&cid=LFLIZ1FO5UGG">Bedsheets</a>
+                            <p class="off">Extra 75% off</p>
+                            <p></p>
+
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/kgsb1jk0/lipstick/g/j/8/4-herb-enriched-ayurvedic-lipstick-pink-shade-no-1-just-herbs-original-imafwy4chxvgjngq.jpeg?q=70"
+                            alt="">
+
+                        <div class="lines">
+                            <a
+                                href="https://www.flipkart.com/beauty-and-grooming/makeup/pr?sid=g9b,ffi&offer=nb:mp:0528c20121&hpid=6KvbcAqivWyo6wiGXhvZyap7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_42a961f1-fb4b-449b-8030-8f732f932290_2.F65QJC2BSADR&ppt=hp&ppn=homepage&ssid=litvvmmmm80000001624368436762&otracker=clp_omu_infinite_Deals%2Bof%2Bthe%2BDay_1_2.dealCard.OMU_INFINITE_dotd-store_dotd-store_F65QJC2BSADR&cid=F65QJC2BSADR">Just
+                                Herbs</a>
+                            <p class="off">Extra 15% off</p>
+                            <p></p>
+
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/kolsscw0/shampoo/5/a/t/hair-fall-control-shampoo-for-weak-undernourished-hair-shampoo-original-imag3ytymkhguz4t.jpeg?q=70"
+                            alt="">
+
+                        <div class="lines">
+                            <a
+                                href="https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&offer=nb:mp:053c380718&hpid=a9EOG6RE8nG6Z74VFtNMJap7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=09e310f0-67f4-407e-9894-c2464f117e2b.LN7D816WQU0F&ppt=clp&ppn=dotd-store&ssid=litvvmmmm80000001624368436762&otracker=clp_omu_Deals%252Bof%252Bthe%252BDay_30_Extra%2B10%2525%2BOff_LN7D816WQU0F&cid=LN7D816WQU0F">Brilliare</a>
+                            <p class="off">Extra 10% off</p>
+                            <p></p>
+
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jzhb24w0/sari/g/6/7/free-kara115-red-sariya-original-imafjhsbhzkhbqcz.jpeg?q=70"
+                            alt="">
+
+                        <div class="lines">
+                            <a
+                                href="https://www.flipkart.com/clothing-and-accessories/~cs-aerg0b0afc/pr?sid=clo&collection-tab-name=KK%2CSets%2CDM%2CSarees&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&offer=nb:mp:053de78317,nb:mp:0599eebf17&hpid=NbgMHY_ywUeieabf1EEaT6p7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_4db9cad3-d255-49ad-83c3-133747e6ac41_3.QXPFS35NQIQA&ppt=browse&ppn=browse&ssid=litvvmmmm80000001624368436762&otracker=hp_omu_Deals%2Bof%2Bthe%2BDay_4_3.dealCard.OMU_QXPFS35NQIQA_3&otracker1=hp_omu_SECTIONED_manualRanking_neo%2Fmerchandising_Deals%2Bof%2Bthe%2BDay_NA_dealCard_cc_4_NA_view-all_3&cid=QXPFS35NQIQA">Sarees,
+                                Kurtas & More</a>
+                            <p class="off">Extra 50% off</p>
+                            <p></p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-centre">
+        <p>Copyright &copy; MyCart.com</p>
+    </footer>
+</body>
+
+</html>
